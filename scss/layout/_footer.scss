@@ -1,0 +1,31 @@
+.footer {
+  background-color: $black-color;
+}
+
+.footer__container {
+  @include flex-center;
+  margin-top: 16.4rem;
+  margin-bottom: 4rem;
+}
+
+.sitenav-2 {
+  ul {
+    @include flex-center;
+    gap: 4.2rem;
+  }
+
+  a {
+    color: $white-color;
+    text-transform: uppercase;
+    font-weight: 400;
+    opacity: 0.8;
+  }
+}
+
+.footer__r {
+  border: 1px solid;
+  color: $white-color;
+  width: 1111px;
+  margin-bottom: 3rem;
+  opacity: 0.2;
+}

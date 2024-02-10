@@ -1,0 +1,28 @@
+.btn-white {
+  @include buttons($black-color, $white-color);
+  text-decoration: none;
+}
+
+.btn-black {
+  @include buttons($white-color, $black-color);
+  text-decoration: none;
+
+  &:hover {
+    @include buttons_hover($black-color, $white-color);
+  }
+}
+
+.btn-peach {
+  @include buttons($white-color, $peach-color);
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.btn-black {
+  @include buttons($white-color, $black-color);
+  text-decoration: none;
+
+  &:hover {
+    @include buttons_hover($black-color, $white-color);
+  }
+}

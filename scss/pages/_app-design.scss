@@ -1,0 +1,26 @@
+.div-img-4 {
+  a {
+    background-image: url(/images/home/desktop/image-web-design-small.jpg);
+    width: 541px;
+    height: 308px;
+    border-radius: 12px;
+    margin-bottom: 2.4rem;
+    h3 {
+      padding-left: 16.5rem;
+      text-decoration: none;
+      color: $white-color;
+      font-weight: 500;
+      font-family: $main-font;
+      display: flex;
+    }
+    h2 {
+      padding-left: 13.7rem;
+      text-decoration: none;
+      color: $white-color;
+      font-weight: 500;
+      font-family: $main-font;
+      padding-top: 10.2rem;
+      margin-bottom: 2.4rem;
+    }
+  }
+}

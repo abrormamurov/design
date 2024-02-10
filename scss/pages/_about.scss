@@ -1,0 +1,118 @@
+.main-about-full {
+  display: flex;
+  margin-bottom: 16rem;
+  div {
+    img {
+      border-radius: 0 12px 12px 0;
+    }
+  }
+}
+.about-main-title {
+  padding-left: 12.2rem;
+  background-color: $peach-color;
+  border-radius: 12px 0 0 12px;
+  padding-top: 16.5rem;
+  h1 {
+    color: $white-color;
+    font-family: $main-font;
+    font-size: 4.8rem;
+    font-weight: 500;
+    line-height: 1rem;
+    margin-bottom: 4.2rem;
+  }
+
+  p {
+    color: $white-color;
+    font-weight: 500;
+    font-style: 1.6rem;
+    opacity: 0.9;
+    margin-right: 6.2rem;
+    width: 45.8rem;
+  }
+}
+
+.about-main-title-1 {
+  padding-left: 12.2rem;
+  background-color: #fdf3f0;
+  border-radius: 0 12px 12px 0;
+  padding-top: 18.5rem;
+  height: 640px;
+  h2 {
+    color: $peach-color;
+    font-family: $main-font;
+    font-size: 4.8rem;
+    font-weight: 500;
+    line-height: 1rem;
+    margin-bottom: 4.2rem;
+  }
+
+  p {
+    color: $dark-grey;
+    font-weight: 500;
+    font-style: 1.6rem;
+    opacity: 0.9;
+    margin-right: 6.2rem;
+    width: 44.5rem;
+  }
+}
+
+.main-about-full-1 {
+  display: flex;
+  margin-bottom: 16rem;
+  div {
+    img {
+      border-radius: 12px 0 0 12px;
+    }
+  }
+}
+
+.about-link-conada {
+  margin-left: 7.4rem;
+  h3 {
+    display: flex;
+    align-items: center;
+    margin-top: 4.8rem;
+    margin-bottom: 3.2rem;
+    font-family: $main-font;
+    color: $dark-grey;
+    padding-left: 4rem;
+  }
+  a {
+    margin-left: 1.5rem;
+  }
+}
+
+.about-link {
+  margin-bottom: 16rem;
+  display: flex;
+  gap: 10.4rem;
+}
+
+.about-link-australia {
+  margin-left: 7.4rem;
+  h3 {
+    display: flex;
+    align-items: center;
+    margin-top: 4.8rem;
+    margin-bottom: 3.2rem;
+    font-family: $main-font;
+    color: $dark-grey;
+    padding-left: 4rem;
+  }
+  a {
+    margin-left: 3rem;
+  }
+}
+
+.about-link-united {
+  margin-left: 7.4rem;
+  h3 {
+    margin-top: 4.8rem;
+    margin-bottom: 3.2rem;
+    font-family: $main-font;
+    color: $dark-grey;
+  }
+  a {
+    margin-left: 2.5rem;
+  }
+}

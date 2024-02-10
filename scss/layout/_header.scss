@@ -1,0 +1,22 @@
+.header {
+  background-color: $white-color;
+  margin-bottom: 6.7rem;
+}
+
+.header__container {
+  @include flex-center;
+  margin-top: 6.4rem;
+}
+
+.sitenav {
+  ul {
+    @include flex-center;
+    gap: 4.2rem;
+  }
+
+  a {
+    color: $dark-grey;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+}
