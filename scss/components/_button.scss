@@ -1,6 +1,14 @@
 .btn-white {
   @include buttons($black-color, $white-color);
   text-decoration: none;
+  &:hover {
+    @include buttons_hover($black-color, #ffad9b);
+  }
+}
+
+.btn-white:hover {
+  background: #ffad9b;
+  color: $white-color;
 }
 
 .btn-black {
@@ -16,6 +24,14 @@
   @include buttons($white-color, $peach-color);
   text-decoration: none;
   border-radius: 8px;
+  &:hover {
+    @include buttons_hover($black-color, $white-color);
+  }
+}
+
+.btn-peach:hover {
+  background: #ffad9b;
+  color: $white-color;
 }
 
 .btn-black {

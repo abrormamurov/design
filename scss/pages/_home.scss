@@ -39,6 +39,12 @@ section {
 }
 
 .div-img-1 {
+  a:hover {
+    background-image: linear-gradient(
+      rgb(231, 129, 107, 0.9),
+      rgb(231, 129, 107, 0.9)
+    );
+  }
   a {
     background-image: url(/images/home/desktop/image-web-design-large.jpg);
     width: 540px;
@@ -76,6 +82,12 @@ section {
 }
 
 .div-img-2 {
+  a:hover {
+    background-image: linear-gradient(
+      rgb(231, 129, 107, 0.9),
+      rgb(231, 129, 107, 0.9)
+    );
+  }
   a {
     background-image: url(/images/home/desktop/image-app-design.jpg);
     width: 541px;
@@ -103,6 +115,12 @@ section {
 }
 
 .div-img-3 {
+  a:hover {
+    background-image: linear-gradient(
+      rgb(231, 129, 107, 0.9),
+      rgb(231, 129, 107, 0.9)
+    );
+  }
   a {
     background-image: url(/images/home/desktop/image-graphic-design.jpg);
     width: 541px;
@@ -185,4 +203,11 @@ section {
   margin-right: 9.6rem;
   margin-top: 11.8rem;
   border-radius: 8px;
+}
+
+.ins-link {
+  display: flex;
+  gap: 1.6rem;
+  margin-left: 45rem;
+  margin-top: -3rem;
 }

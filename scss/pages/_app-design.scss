@@ -1,4 +1,10 @@
 .div-img-4 {
+  a:hover {
+    background-image: linear-gradient(
+      rgb(231, 129, 107, 0.9),
+      rgb(231, 129, 107, 0.9)
+    );
+  }
   a {
     background-image: url(/images/home/desktop/image-web-design-small.jpg);
     width: 541px;

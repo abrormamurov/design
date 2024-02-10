@@ -115,6 +115,15 @@ h3 {
   border: 1px solid transparent;
   text-decoration: none;
 }
+.btn-white:hover {
+  border-color: #ffad9b;
+  color: #1d1c1e;
+}
+
+.btn-white:hover {
+  background: #ffad9b;
+  color: #ffffff;
+}
 
 .btn-black {
   padding-top: 1.5rem;
@@ -149,6 +158,15 @@ h3 {
   border: 1px solid transparent;
   text-decoration: none;
   border-radius: 8px;
+}
+.btn-peach:hover {
+  border-color: #ffffff;
+  color: #1d1c1e;
+}
+
+.btn-peach:hover {
+  background: #ffad9b;
+  color: #ffffff;
 }
 
 .btn-black {
@@ -203,6 +221,10 @@ h3 {
   opacity: 0.2;
 }
 
+.sitenav-2:hover a {
+  text-decoration: underline;
+}
+
 .header {
   background-color: #ffffff;
   margin-bottom: 6.7rem;
@@ -225,6 +247,10 @@ h3 {
   color: #333136;
   text-transform: uppercase;
   font-weight: 400;
+}
+
+.sitenav:hover a {
+  text-decoration: underline;
 }
 
 .main-1 {
@@ -264,6 +290,9 @@ section {
   border-radius: 12px;
 }
 
+.div-img-1 a:hover {
+  background-image: linear-gradient(rgba(231, 129, 107, 0.9), rgba(231, 129, 107, 0.9));
+}
 .div-img-1 a {
   background-image: url(/images/home/desktop/image-web-design-large.jpg);
   width: 540px;
@@ -299,6 +328,9 @@ section {
   margin-bottom: 16rem;
 }
 
+.div-img-2 a:hover {
+  background-image: linear-gradient(rgba(231, 129, 107, 0.9), rgba(231, 129, 107, 0.9));
+}
 .div-img-2 a {
   background-image: url(/images/home/desktop/image-app-design.jpg);
   width: 541px;
@@ -324,6 +356,9 @@ section {
   margin-bottom: 2.4rem;
 }
 
+.div-img-3 a:hover {
+  background-image: linear-gradient(rgba(231, 129, 107, 0.9), rgba(231, 129, 107, 0.9));
+}
 .div-img-3 a {
   background-image: url(/images/home/desktop/image-graphic-design.jpg);
   width: 541px;
@@ -406,6 +441,13 @@ section {
   margin-right: 9.6rem;
   margin-top: 11.8rem;
   border-radius: 8px;
+}
+
+.ins-link {
+  display: flex;
+  gap: 1.6rem;
+  margin-left: 45rem;
+  margin-top: -3rem;
 }
 
 .web-design-card {
@@ -538,6 +580,41 @@ section {
   margin-bottom: 3.2rem;
 }
 
+.web-title:hover {
+  background-color: #e7816b;
+  color: #ffffff;
+}
+.web-title:hover h3:hover {
+  color: #ffffff;
+}
+
+.web-title-5:hover {
+  background-color: #e7816b;
+  color: #ffffff;
+}
+.web-title-5:hover h3:hover {
+  color: #ffffff;
+}
+
+.web-title-2:hover {
+  background-color: #e7816b;
+  color: #ffffff;
+}
+.web-title-2:hover h3:hover {
+  color: #ffffff;
+}
+
+.web-title-1:hover {
+  background-color: #e7816b;
+  color: #ffffff;
+}
+.web-title-1:hover h3:hover {
+  color: #ffffff;
+}
+
+.div-img-4 a:hover {
+  background-image: linear-gradient(rgba(231, 129, 107, 0.9), rgba(231, 129, 107, 0.9));
+}
 .div-img-4 a {
   background-image: url(/images/home/desktop/image-web-design-small.jpg);
   width: 541px;
